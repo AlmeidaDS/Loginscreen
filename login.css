@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: auto;
+    background: black;
+}
+#principal{
+    background: #f4f6f7;
+    border-radius: 5px;
+    margin: 0 auto;
+   width: 400px;
+   height: 450px;
+   padding: 30px;
+}
+#loginForm{
+    width: 300px;
+    margin: 0 auto;
+    
+}
+#btn-create{
+    width: 300px;
+    border-radius: 5px;
+    background: #393735;
+    
+  
+}
+#btn-create:hover{
+    background: none;
+   border: 1px solid;
+   color: black;
+    
+    
+}
+label{
+ text-transform: capitalize;
+ font-weight: bold;
+ font-size: 12
+}
+#name,#surname,#date,#email{
+    border-radius: 5px;
+}
+p{
+    color: white;
+    margin-top: 23px;
+    text-align: center;
+}
